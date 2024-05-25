@@ -6,7 +6,7 @@
   <style>
     body{ 
       background-color: black;
-      height: 100%;
+      height: 100vh;
       margin: 0px;
       display: flex;
       justify-content: center;
@@ -31,13 +31,18 @@
 @keyframes l14 {
   100%  {background-position:right,left,center,right}
 }
-
+.loader-text {
+      color: white;
+      font-weight: bold;
+      font-size: 1em;
+      margin-top: 20px;
+    }
   </style>
 </head>
 <body>
 
   <div class="loader"></div> 
-
+  <div class="loader-text">Es un QR de nattal</div>
   <script>
     const AS_URL_BASE = "https://script.google.com/macros/s/AKfycbzqj3EzmEJ8f8ejfo6bQjWCbgLHvZWcMr3QS9YvgL4dBubahnq--W3Sq3SUgrKo-uwLKw/exec";
     
